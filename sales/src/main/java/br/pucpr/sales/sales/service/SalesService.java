@@ -17,6 +17,6 @@ public class SalesService {
     }
 
     public List<Sale> list() {
-        return (List<Sale>) this.salesRepository.findAll();
+        return this.salesRepository.findTodaysSales();
     }
 }
