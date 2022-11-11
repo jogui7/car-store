@@ -1,4 +1,4 @@
-package br.pucpr.sales.entities;
+package br.pucpr.sales.sales.entities;
 
 import java.io.Serializable;
 import java.sql.Date;
@@ -28,6 +28,9 @@ public class Sale implements Serializable {
 
     @Column(name = "sale_date", nullable = false)
     private Date saleDate;
+
+    public Sale() {
+    }
 
     public Long getId() {
         return id;

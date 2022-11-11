@@ -1,10 +1,9 @@
-package br.pucpr.sales.service;
+package br.pucpr.sales.sales.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import br.pucpr.sales.entities.Sale;
-import br.pucpr.sales.repositories.SalesRepository;
+import br.pucpr.sales.sales.entities.Sale;
+import br.pucpr.sales.sales.repositories.SalesRepository;
 
 @Service
 public class SalesService {

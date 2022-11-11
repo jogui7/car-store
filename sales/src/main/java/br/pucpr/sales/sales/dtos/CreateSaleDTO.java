@@ -1,8 +1,7 @@
-package br.pucpr.sales.dtos;
+package br.pucpr.sales.sales.dtos;
 
 import java.sql.Date;
-
-import br.pucpr.sales.entities.Sale;
+import br.pucpr.sales.sales.entities.Sale;
 
 public class CreateSaleDTO {
     private Long customerId;
