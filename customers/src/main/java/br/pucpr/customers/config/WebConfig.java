@@ -1,4 +1,4 @@
-package br.pucpr.cars.config;
+package br.pucpr.customers.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
