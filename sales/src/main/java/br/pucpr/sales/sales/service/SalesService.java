@@ -1,5 +1,7 @@
 package br.pucpr.sales.sales.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import br.pucpr.sales.sales.entities.Sale;
@@ -12,5 +14,9 @@ public class SalesService {
 
     public Sale save(Sale customer) {
         return this.salesRepository.save(customer);
+    }
+
+    public List<Sale> list() {
+        return (List<Sale>) this.salesRepository.findAll();
     }
 }
